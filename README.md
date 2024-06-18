@@ -49,15 +49,19 @@ bash
 Copy code
 git clone https://github.com/yourusername/malicious-url-detection.git
 cd malicious-url-detection
+
 - Install the required dependencies:
 bash
 Copy code
 pip install -r requirements.txt
+
 - Run the Django server:
 bash
 Copy code
 python manage.py runserver
+
 - Access the application at http://127.0.0.1:8000.
+  
 Methodologies
 Data Preprocessing
 Cleaning and transforming URL data.
